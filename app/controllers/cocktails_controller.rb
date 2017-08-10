@@ -7,14 +7,11 @@ class CocktailsController < ApplicationController
   def show
     # @dose = Dose.new
   end
-
   def edit
   end
-
   def new
     @cocktail = Cocktail.new
   end
-
   def create
     @cocktail = Cocktail.new(cocktail_params)
     respond_to do |format|

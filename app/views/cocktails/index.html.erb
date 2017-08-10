@@ -1,1 +1,18 @@
-<h1>tests</h1>
+<div class="container">
+  <div class="row">
+  <div class="col-md-6 col-md-offset-3">
+
+    <div class="list text-center">
+    <h1>Cocktail menu</h1>
+    <hr/>
+      <% @cocktails.each do |cocktail| %>
+      <tr>
+        <div class = "cocktail">
+          <td><%= link_to cocktail.name, cocktail %></td>
+        </div>
+      </tr>
+      <% end %>
+  </div>
+    </div>
+  </div>
+</div>

@@ -57,6 +57,7 @@ ruby '2.3.4'
 
 gem 'cloudinary'
 gem 'figaro'
+gem 'carrierwave', '~> 0.11.2'
 gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
